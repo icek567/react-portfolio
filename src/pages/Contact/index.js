@@ -23,7 +23,8 @@ function Contact() {
                             <textarea className="display" type="text" name="name" placeholder="Write Message here" ></textarea>
                             </form>
                             <br />
-                            <button className="submit" type="button">Submit</button>
+                            <button className="button" type="submit" value="Submit" >Submit</button>
+                            <br/>
                     </div>
                 </div>
             </div>

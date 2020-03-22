@@ -1,0 +1,28 @@
+
+.container{
+    background: rgba(5, 45, 126, 0.76);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.781), 0 6px 20px 0 rgba(20, 5, 241, 0.623);
+}
+.articletitle {
+    color: #fbffff;
+    padding: 20px 0px 10px 0px;
+    border-bottom: 3px solid #f0e8e8;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.articlebox {
+    padding: 20px 0px 50px 0px;
+}
+
+.articlecontent {
+    padding-top: 10px;
+    line-height: 2;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+body{
+    background-image: url("https://images.pexels.com/photos/235994/pexels-photo-235994.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");
+    background-size: cover;
+
+}

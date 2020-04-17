@@ -1,5 +1,8 @@
-.portfoliobox {
+.card {
     position: relative;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: block;
 }
 
 .portfolioimg {
@@ -7,3 +10,13 @@
     width: 200px;
 }
 
+.imgbox {
+    position: absolute;
+    left: 15px;
+    top: 150px;
+    width: 200px;
+    height: 36px;
+    text-align: center;
+    padding-top: 2px;
+    background-color: rgb(21, 21, 68, 0.76);
+}

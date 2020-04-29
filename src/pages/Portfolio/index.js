@@ -44,10 +44,10 @@ function Portfolio() {
                         <div className="col-sm-6">
                             <div className="card text-white bg-dark">
                                 <div className="card-body">
-                                    <h5 className="card-text">Super hero Quiz</h5>
+                                    <h5 className="card-text">Superhero Quiz</h5>
                                     <p className="card-text">How good do you know superhero lore? Take this quiz and find out if you know enough to pass.
                             See your high school but if you get too many wrong answers it will end the quiz early.</p>
-                                    <Project  name="Quiz" img={quiz} link="https://icek567.github.io/Quiz-2" />
+                                    <Project  name="Superhero Quiz" img={quiz} link="https://icek567.github.io/Quiz-2" />
                                 </div>
                             </div>
                         </div>
@@ -61,6 +61,28 @@ function Portfolio() {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div className="row articlecontent">
+                        <div className="col-sm-6">
+                            <div className="card text-white bg-dark">
+                                <div className="card-body">
+                                    <h5 className="card-text">Password Generator</h5>
+                                    <p className="card-text">Need to come up with a strong password for any online account? With this you are able to generate one for you and be able to copy it to clipboard. 
+                                    This website uses pure javascript to generate from random symbols, numbers and letters.</p>
+                                    <Project  name="Password Generator" img={quiz} link="https://icek567.github.io/Password-Generator/" />
+                                </div>
+                            </div>
+                        </div>
+                        {/* <div className="col-sm-6">
+                            <div className="card text-white bg-dark">
+                                <div className="card-body">
+                                    <h5 className="card-text">Burger App</h5>
+                                    <p className="card-text">Devour the burger or toss it away, the choice is up to you. On the left side you have the burgers that have been created while on the right
+                            are the ones that you ate.</p>
+                                    <Project name="Burger App" img={burger} link="https://arcane-thicket-32283.herokuapp.com/" />
+                                </div>
+                            </div>
+                        </div> */}
                     </div>
                 </div>
             </div>

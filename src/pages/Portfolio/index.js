@@ -4,6 +4,8 @@ import media from "./media.jpg"
 import Schedule from "./schedule.jpg"
 import quiz from "./quiz.jpg"
 import burger from "./burger.jpg"
+import password from "./password.jpg"
+import team from "./team.jpg"
 
 function Portfolio() {
     return (
@@ -69,20 +71,20 @@ function Portfolio() {
                                     <h5 className="card-text">Password Generator</h5>
                                     <p className="card-text">Need to come up with a strong password for any online account? With this you are able to generate one for you and be able to copy it to clipboard. 
                                     This website uses pure javascript to generate from random symbols, numbers and letters.</p>
-                                    <Project  name="Password Generator" img={quiz} link="https://icek567.github.io/Password-Generator/" />
+                                    <Project  name="Password Generator" img={password} link="https://icek567.github.io/Password-Generator/" />
                                 </div>
                             </div>
                         </div>
-                        {/* <div className="col-sm-6">
+                        <div className="col-sm-6">
                             <div className="card text-white bg-dark">
                                 <div className="card-body">
-                                    <h5 className="card-text">Burger App</h5>
-                                    <p className="card-text">Devour the burger or toss it away, the choice is up to you. On the left side you have the burgers that have been created while on the right
-                            are the ones that you ate.</p>
-                                    <Project name="Burger App" img={burger} link="https://arcane-thicket-32283.herokuapp.com/" />
+                                    <h5 className="card-text">Team Maker</h5>
+                                    <p className="card-text">Using node.js, form your terminal you are able to create a team for yourself. Create the manager, Engineer and the intern.
+                                     Once all of the information was put in, open the new file in your web browser and it will show you the website. </p>
+                                    <Project name="Team Maker" img={team} link="https://github.com/icek567/Team-Maker" />
                                 </div>
                             </div>
-                        </div> */}
+                        </div>
                     </div>
                 </div>
             </div>

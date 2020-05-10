@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./style.css";
+
+
 
 
 function Header () {
@@ -13,7 +16,7 @@ function Header () {
             </button>
             <div className="collapse navbar-collapse" id="navbarNav">
                 <ul className="navbar-nav">
-                    <li className="nav-item active">
+                    <li className="nav-item">
                         <Link className="nav-link" to="/">About me</Link>
                     </li>
                     <li className="nav-item">
@@ -22,6 +25,16 @@ function Header () {
                     <li className="nav-item">
                         <Link className="nav-link" to="./contact">Contact</Link>
                     </li>
+                    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown">
+          My pages
+        </a>
+        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item text-white" href="https://github.com/icek567">Github</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item text-white" href="https://www.linkedin.com/in/sergio-perez-a67305194/">LinkedIn</a>
+        </div>
+      </li>
                 </ul>
             </div>
         </nav>

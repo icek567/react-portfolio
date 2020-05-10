@@ -8,6 +8,10 @@
 .portfolioimg {
     height: 200px;
     width: 200px;
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
 }
 
 .imgbox {
@@ -19,4 +23,15 @@
     text-align: center;
     padding-top: 2px;
     background-color: rgb(21, 21, 68);
+    transition: .5s ease;
+    opacity: 0;
 }
+/* Hover effect on image */
+  .portfoliobox:hover .portfolioimg {
+    opacity: 0.3;
+  }
+
+  /* hover effect on link */
+  .portfoliobox:hover .imgbox {
+    opacity: 1;
+  }

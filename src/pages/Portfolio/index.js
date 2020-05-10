@@ -26,7 +26,7 @@ function Portfolio() {
                                     <p className="card-text">This was the very first group project that I worked on with 4 others. The
                                     concept of this is it searches comics, video games and movies of the same genre using
                                 “Keyword” or “Title”.</p>
-                                    <Project name="Project1" img={media} link="https://jlovejo2.github.io/Multi-Media-Search-App/" />
+                                    <Project name="Multi-Media-App" img={media} link="https://icek567.github.io/Multi-Media-Search-App/" />
                                 </div>
                             </div>
                         </div>
@@ -49,7 +49,7 @@ function Portfolio() {
                                     <h5 className="card-text">Superhero Quiz</h5>
                                     <p className="card-text">How good do you know superhero lore? Take this quiz and find out if you know enough to pass.
                             See your high school but if you get too many wrong answers it will end the quiz early.</p>
-                                    <Project  name="Superhero Quiz" img={quiz} link="https://icek567.github.io/Quiz-2" />
+                                    <Project name="Superhero Quiz" img={quiz} link="https://icek567.github.io/Quiz-2" />
                                 </div>
                             </div>
                         </div>

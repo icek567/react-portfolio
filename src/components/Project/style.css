@@ -4,7 +4,10 @@
   border-radius: 10px;
   display: block;
 }
-
+@media screen and (max-height: 450px) {
+  .portfolioimg {padding-top: 15px;}
+  .imgbox {font-size: 18px;}
+}
 .portfolioimg {
   height: 200px;
   width: 200px;
@@ -14,7 +17,7 @@
   backface-visibility: hidden;
 }
 
-/* link to deployed App */
+/* link to deployed App in the middle of the picture */
 .imgbox {
   position: absolute;
   left: 15px;

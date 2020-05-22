@@ -8,7 +8,7 @@ import Container from "./components/Container"
 function App() {
   return (
     <Router>
-      <Header />
+      < Header/>
       <Container />
       <Footer />
     </Router>

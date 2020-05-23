@@ -10,9 +10,8 @@ function Header() {
 
     <div className="wrapper">
       <div id="sidebar">
-        <p>"Hover over me"</p>
         <div className="sidebar-header">
-          <h3>Sergio Perez</h3>
+          <h3>Menu</h3>
         </div>
 
         <div className="content">

@@ -4,7 +4,7 @@
 
 }
 .content{
-    transition: .5s ease;
+  transition: .5s ease;
   opacity: 0;
   background-image: url("https://r1.ilikewallpaper.net/iphone-wallpapers/download/10299/Blue-Cloud-iphone-wallpaper-ilikewallpaper_com.jpg");
   height: 100%;
@@ -15,10 +15,13 @@
 }
 
 #sidebar{
-    background-color: rgb(21, 21, 68);    width: 160px;
+  background-color: rgb(21, 21, 68);  
+  width: 160px;
   position: fixed;
   z-index: 1;
   padding-top: 20px;
+  color: #fff;
+  transition: all 0.3s;
 }
 
 a, a:hover, a:focus {
@@ -27,11 +30,6 @@ a, a:hover, a:focus {
     transition: all 0.3s;
 }
 
-#sidebar {
-    /* don't forget to add all the previously mentioned styles here too */
-    color: #fff;
-    transition: all 0.3s;
-}
 
 #sidebar .sidebar-header {
     padding-bottom: 5px;

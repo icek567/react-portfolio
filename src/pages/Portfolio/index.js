@@ -41,7 +41,7 @@ function Portfolio() {
                             <div className="card text-white bg-dark">
                                 <div className="card-body">
                                     <h5 className="card-title">Day Schedule</h5>
-                                    <p className="card-text">This was a Day schedule that worked for a regular morning shift. You are
+                                    <p className="card-text">This was a Day schedule that works for a regular morning shift. You are
                                     able to type task inside of the boxes and saved them so you are able to exit and come back
                             to them later. </p>
                                     <Project name="Schedule" img={Schedule} link="https://icek567.github.io/Schedule/" />

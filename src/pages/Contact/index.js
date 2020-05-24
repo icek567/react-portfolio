@@ -33,9 +33,9 @@ function Contact() {
                         <div class="col-lg-6">
                             <h2 class="articletitle">Contact Info</h2>
                             <ul>
-                                <li class="text-light"><strong>Email:</strong> <a href="/">sergio_perezg@yahoo.com</a></li>
-                                <li class="text-light"><strong>Github:</strong> <a href="https://github.com/icek567">icek567</a></li>
-                                <li class="text-light"><strong>Portfolio:</strong> <Link to="/portfolio">Check it Out!</Link></li>
+                                <li class="text-light"><strong>Email:</strong><a title="Email Me" href="mailto:sergio_perezg@yahoo.com">sergio_perezg@yahoo.com</a></li>
+                                <li class="text-light"><strong>Github:</strong> <a title="Chech it out!" href="https://github.com/icek567">icek567</a></li>
+                                <li class="text-light"><strong>Portfolio:</strong> <Link to="/portfolio" title ="My work">Check it Out!</Link></li>
                             </ul>
                         </div>
                     </div>

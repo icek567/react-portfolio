@@ -6,6 +6,9 @@
     box-sizing: border-box;
     border-radius: 10px;
     display: block;
+    margin-left: 130px; /* Same as the width of the sidenav */
+    /* font-size: 28px; Increased text to enable scrolling */
+    width: auto;
 }
 
 .box2{
@@ -16,6 +19,8 @@
     border-radius: 10px;
     display: block;
     width: 90%;
+    margin-left: 130px; /* Same as the width of the sidenav */
+    /* font-size: 28px; Increased text to enable scrolling */
 }
 .articletitle {
     color: #fbffff;

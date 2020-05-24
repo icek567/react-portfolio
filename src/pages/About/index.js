@@ -19,7 +19,7 @@ function About() {
               </div>
 
               <div className="col-md-8">
-                <p className="text-white">  Hello everyone! My name is Sergio Perez and I'm an aspiring Web Developer with a passion in Front End Design. When I am not practicing my coding skills you can catch me at my job at Northshore Evanston
+                <p className="text-white">  Hello everyone! My name is Sergio Perez and I'm a Web Developer with a passion in Front End Design. When I am not practicing my coding skills you can catch me at my job at Northshore Evanston
                 Hospital. There I work as a Patient Transporter, basically if
                 a patient needs to go to a test site, I am the one they call.
                 I enjoy taking pictures with my camera(Sony Alpha 6000), preferably of landscapes.

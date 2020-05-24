@@ -20,7 +20,7 @@ function Portfolio() {
 
                     <div className="row articlecontent">
                         <div className="col-sm-6">
-                            <div className="card text-white bg-dark">
+                            <div className="card text-white" id="CardColor">
                                 <div className="card-body">
                                     <h5 className="card-title">Media App</h5>
                                     <p className="card-text">This was the very first group project that I worked on with 4 others. The
@@ -38,7 +38,7 @@ function Portfolio() {
                             </div>
                         </div>
                         <div className="col-sm-6">
-                            <div className="card text-white bg-dark">
+                            <div className="card text-white" id="CardColor">
                                 <div className="card-body">
                                     <h5 className="card-title">Day Schedule</h5>
                                     <p className="card-text">This was a Day schedule that works for a regular morning shift. You are
@@ -58,7 +58,7 @@ function Portfolio() {
                     </div>
                     <div className="row articlecontent">
                         <div className="col-sm-6">
-                            <div className="card text-white bg-dark">
+                            <div className="card text-white" id="CardColor">
                                 <div className="card-body">
                                     <h5 className="card-title">Superhero Quiz</h5>
                                     <p className="card-text">How good do you know superhero lore? Take this quiz and find out if you know enough to pass.
@@ -75,7 +75,7 @@ function Portfolio() {
                             </div>
                         </div>
                         <div className="col-sm-6">
-                            <div className="card text-white bg-dark">
+                            <div className="card text-white" id="CardColor">
                                 <div className="card-body">
                                     <h5 className="card-title">Burger App</h5>
                                     <p className="card-text">Devour the burger or toss it away, the choice is up to you. On the left side you have the burgers that have been created while on the right
@@ -96,7 +96,7 @@ function Portfolio() {
                     </div>
                     <div className="row articlecontent">
                         <div className="col-sm-6">
-                            <div className="card text-white bg-dark">
+                            <div className="card text-white" id="CardColor">
                                 <div className="card-body">
                                     <h5 className="card-title">Password Generator</h5>
                                     <p className="card-text">Need to come up with a strong password for any online account? With this you are able to generate one for you and be able to copy it to clipboard. 
@@ -113,7 +113,7 @@ function Portfolio() {
                             </div>
                         </div>
                         <div className="col-sm-6">
-                            <div className="card text-white bg-dark">
+                            <div className="card text-white" id="CardColor">
                                 <div className="card-body">
                                     <h5 className="card-title">Team Maker</h5>
                                     <p className="card-text">Using node.js, form your terminal you are able to create a team for yourself. Create the manager, Engineer and the intern.

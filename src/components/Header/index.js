@@ -18,23 +18,26 @@ function Header() {
 
           <ul className="list-unstyled components">
             <li>
-              <Link className="nav-link" to="/"><i class="fas fa-user"></i>  About me</Link>
+              <Link id="link"  className="nav-link" to="/"><i class="fas fa-user"></i>  About me</Link>
             </li>
             <li>
-              <Link className="nav-link" to="/portfolio"><i class="fas fa-briefcase"></i>  Portfolio</Link>
+              <Link id="link"  className="nav-link" to="/portfolio"><i class="fas fa-briefcase"></i>  Portfolio</Link>
             </li>
             <li>
-              <Link className="nav-link" to="/contact"> <i class="fas fa-blender-phone"></i>  Contact</Link>
+              <Link id="link"  className="nav-link" to="/contact"> <i class="fas fa-blender-phone"></i>  Contact</Link>
             </li>
             <li>
-              <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"
+              <a id="link" href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"
                 className="dropdown-toggle">Pages</a>
               <ul className="collapse list-unstyled" id="pageSubmenu">
                 <li>
-                  <a href="https://github.com/icek567"><i class="fab fa-github"></i> GitHub</a>
+                  <a id="link"  href="https://github.com/icek567"><i class="fab fa-github"></i>  GitHub</a>
                 </li>
                 <li>
-                  <a href="https://www.linkedin.com/in/sergio-perez-a67305194/"> <i class="fab fa-linkedin"></i> LinkedIn</a>
+                  <a id="link"  href="https://www.linkedin.com/in/sergio-perez-a67305194/"> <i class="fab fa-linkedin"></i>  LinkedIn</a>
+                </li>
+                <li>
+                  <a id="link"  href="https://docs.google.com/document/d/1pRxAe_KU3PCrV6bcpq55rM-EHnEYn2RL5KyEhYaYu-w/edit?usp=sharing"> <i class="far fa-file-alt"></i>  Resume</a>
                 </li>
               </ul>
             </li>

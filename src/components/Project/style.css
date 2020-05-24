@@ -53,3 +53,13 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    margin-left: 5px;
 }
+
+/* card color */
+#CardColor{
+  background-color: rgb(36, 36, 49);
+}
+
+/* #CardColor{
+  background-color:  rgb(6, 7, 70);
+} */
+

@@ -5,3 +5,19 @@
 .display2{
     width: 45%;
 }
+
+.carousel {
+    width:700px;
+    height:500px;
+    margin: auto;
+  }
+
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+
+.information{
+    background-color: rgba(0, 0, 0, 0.253);
+}

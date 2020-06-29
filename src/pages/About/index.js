@@ -32,7 +32,7 @@ function About() {
                 comfortable to the people around me. Once I do I go all out me showing my good sence of humor and very talkative
                 person that I am.</p>
 
-                <p className="text-white">  My strongest laguages in code I would say are React, Node.js, Javascript, Mongo and Mongoose. I am also very good with
+                <p className="text-white">  My strongest laguages in code I would say are HTML5, React, Node.js, Javascript, Mongo and Mongoose. I am also very good with
                   using the frameworks of Bootstrap, Materialize and CSS to add polishing touches.
                 </p>
               </div>

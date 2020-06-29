@@ -31,6 +31,7 @@ function Portfolio() {
                                 <a class="btn btn-outline-info btn-sm" id="btn" href="https://github.com/icek567/Multi-Media-Search-App" role="button">GitHub</a>
                                 <h5 id="list">Technologies used:</h5>
                                 <ul>
+                                    <li>HTML5</li>
                                     <li>jquery</li>
                                     <li>Javascript</li>
                                     <li>Materialize</li>
@@ -106,7 +107,7 @@ function Portfolio() {
                                 <a class="btn btn-outline-info btn-sm" id="btn" href="https://github.com/icek567/Password-Generator" role="button">GitHub</a>
                                <h5 id="list">Technologies used:</h5>
                                 <ul>
-                                    <li>HTML</li>
+                                    <li>HTML5</li>
                                     <li>Javascript</li>
                                     <li>Bootstrap</li>
                                 </ul>
@@ -123,6 +124,7 @@ function Portfolio() {
                                 <a class="btn btn-outline-info btn-sm" id="btn" href="https://github.com/icek567/Team-Maker" role="button">GitHub</a>
                                 <h5 id="list">Technologies used:</h5>
                                 <ul>
+                                    <li>HTML5</li>
                                     <li>Node.js</li>
                                     <li>Javascript</li>
                                     <li>Inquirer</li>

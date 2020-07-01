@@ -1,23 +1,26 @@
-.display{
-    width: 75%;
-}
-
-.display2{
-    width: 45%;
-}
 
 .carousel {
     width:700px;
     height:500px;
     margin: auto;
-  }
+}
 
-  .carousel-indicators li {
+.carousel-indicators li {
     width: 10px;
     height: 10px;
     border-radius: 100%;
   }
 
-.information{
-    background-color: rgba(0, 0, 0, 0.253);
+
+
+.box3{
+    background: rgba(5, 45, 126, 0.76);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.781), 0 6px 20px 0 rgba(20, 5, 241, 0.623);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: block;
+    width: 60%;
+    margin-left: 130px; /* Same as the width of the sidenav */
+    /* font-size: 28px; Increased text to enable scrolling */
 }

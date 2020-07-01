@@ -24,7 +24,7 @@ function Header() {
               <Link id="link"  className="nav-link" to="/portfolio"><i class="fas fa-briefcase"></i>  Portfolio</Link>
             </li>
             <li>
-              <Link id="link"  className="nav-link" to="/contact"> <i class="fas fa-blender-phone"></i>  Contact</Link>
+              <Link id="link"  className="nav-link" to="/contact"> <i class="fas fa-camera-retro"></i>  My Gallery</Link>
             </li>
             <li>
               <a id="link" href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"

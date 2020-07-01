@@ -37,6 +37,23 @@
 .articlecontent {
     padding-top: 10px;
     font-family: 'Times New Roman', Times, serif;
+    color: #fbffff;
+}
+
+/* for carousel */
+.gallery1 {
+    color: #fbffff;
+    padding: 20px 0px 10px 0px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* for carousel */
+.gallery2 {
+    color: #fbffff;
+    border-bottom: 3px solid #f0e8e8;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 body{

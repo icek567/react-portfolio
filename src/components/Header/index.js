@@ -24,7 +24,7 @@ function Header() {
               <Link id="link"  className="nav-link" to="/portfolio"><i class="fas fa-briefcase"></i>  Portfolio</Link>
             </li>
             <li>
-              <Link id="link"  className="nav-link" to="/contact"> <i class="fas fa-camera-retro"></i>  My Gallery</Link>
+              <Link id="link"  className="nav-link" to="/carousel"> <i class="fas fa-camera-retro"></i>  My Gallery</Link>
             </li>
             <li>
               <a id="link" href="#pageSubmenu" data-toggle="collapse" aria-expanded="false"
@@ -37,7 +37,7 @@ function Header() {
                   <a id="link"  href="https://www.linkedin.com/in/sergio-perez-a67305194/"> <i class="fab fa-linkedin"></i>  LinkedIn</a>
                 </li>
                 <li>
-                  <a id="link"  href="https://docs.google.com/document/d/1pRxAe_KU3PCrV6bcpq55rM-EHnEYn2RL5KyEhYaYu-w/edit?usp=sharing"> <i class="far fa-file-alt"></i>  Resume</a>
+                  <a id="link"  href="https://drive.google.com/file/d/1JjgbeOfvgFkX5WIFTRtENxIv43OIbCvb/view?usp=sharing"> <i class="far fa-file-alt"></i>  Resume</a>
                 </li>
               </ul>
             </li>

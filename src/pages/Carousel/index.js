@@ -9,11 +9,11 @@ import woods from "./woods.jpg";
 import birdhouse from "./birdhouse.jpg";
 import Carousel from 'react-bootstrap/Carousel';
 
-function Contact() {
+function Carousels() {
     return (
         <div className="box3">
             <h1 className="gallery1">My Gallery</h1>
-            <h4 className="gallery2">Enjoy some of my shots that I've taken. I am no pro but photography is just a fun hobby of mine </h4>
+            <h4 className="gallery2">Enjoy some of the pictures I've taken. Photography is a hobby of mine. </h4>
             <Carousel>
                 <Carousel.Item>
                     <img
@@ -92,4 +92,4 @@ function Contact() {
     )
 }
 
-export default Contact;
+export default Carousels;

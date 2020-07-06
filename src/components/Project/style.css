@@ -15,6 +15,7 @@
   display: block;
   transition: .5s ease;
   backface-visibility: hidden;
+  padding-bottom: 10px;
 }
 
 /* link to deployed App in the middle of the picture */
@@ -59,7 +60,11 @@
   background-color: rgb(36, 36, 49);
 }
 
-/* #CardColor{
-  background-color:  rgb(6, 7, 70);
-} */
+.accordion{
+  padding-top: 5px;
+  width: 70%;
+}
 
+#point{
+  cursor: pointer;
+}

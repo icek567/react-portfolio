@@ -6,6 +6,11 @@ import quiz from "./quiz.jpg"
 import burger from "./burger.jpg"
 import password from "./password.jpg"
 import team from "./team.jpg"
+import Card from "react-bootstrap/Card"
+import Button from 'react-bootstrap/Button'
+import Accordion from 'react-bootstrap/Accordion'
+
+
 
 function Portfolio() {
     return (
@@ -17,25 +22,40 @@ function Portfolio() {
                             <h1 className="articletitle">Portfolio</h1>
                         </div>
                     </div>
-
                     <div className="row articlecontent">
                         <div className="col-sm-6">
-                            <div className="card text-white" id="CardColor">
-                                <div className="card-body">
-                                    <h5 className="card-title">Media App</h5>
-                                    <p className="card-text">This was the very first group project that I worked on with 4 others. The
-                                    concept of this is it searches comics, video games and movies of the same genre using
-                                “Keyword” or “Title”.</p>
-                                    <Project name="Multi-Media-App" img={media} link="https://icek567.github.io/Multi-Media-Search-App/" />
-                                </div>
-                                <a class="btn btn-outline-info btn-sm" id="btn" href="https://github.com/icek567/Multi-Media-Search-App" role="button">GitHub</a>
-                                <h5 id="list">Technologies used:</h5>
-                                <ul>
-                                    <li>jquery</li>
-                                    <li>Javascript</li>
-                                    <li>Materialize</li>
-                                </ul>
-                            </div>
+                            <Card id="CardColor">
+                                <Card.Body>
+                                    <Card.Title><h5>Media App</h5></Card.Title>
+                                    <Card.Text>
+                                        <p>This was the very first group project that I worked on with 4 others. The
+                                        concept of this is it searches comics, video games and movies of the same genre using
+                                        “Keyword” or “Title”.</p>
+                                    </Card.Text>
+                                    <Project name="Multi-Media" img={media} link="https://icek567.github.io/Multi-Media-Search-App/" />
+                                    <Button variant="btn btn-outline-info btn-sm" href="https://github.com/icek567/Multi-Media-Search-App ">GitHub</Button>
+                                    <Accordion>
+                                        <Card classname="accordion" border="info" id="CardColor">
+                                            <Card.Header id="point">
+                                                <Accordion.Toggle as={Card.Header} eventKey="0">
+                                                    <h5>Technologies Used </h5>
+                                                </Accordion.Toggle>
+                                            </Card.Header>
+                                            <Accordion.Collapse eventKey="0">
+                                                <Card.Body >
+                                                    <Card.Text> <ul>
+                                                        <li>HTML5</li>
+                                                        <li>jquery</li>
+                                                        <li>Javascript</li>
+                                                        <li>Materialze</li>
+                                                    </ul>
+                                                    </Card.Text>
+                                                </Card.Body>
+                                            </Accordion.Collapse>
+                                        </Card>
+                                    </Accordion>
+                                </Card.Body>
+                            </Card>
                         </div>
                         <div className="col-sm-6">
                             <div className="card text-white" id="CardColor">
@@ -99,12 +119,12 @@ function Portfolio() {
                             <div className="card text-white" id="CardColor">
                                 <div className="card-body">
                                     <h5 className="card-title">Password Generator</h5>
-                                    <p className="card-text">Need to come up with a strong password for any online account? With this you are able to generate one for you and be able to copy it to clipboard. 
+                                    <p className="card-text">Need to come up with a strong password for any online account? With this you are able to generate one for you and be able to copy it to clipboard.
                                     This website uses pure javascript to generate from random symbols, numbers and letters.</p>
-                                    <Project  name="Password Generator" img={password} link="https://icek567.github.io/Password-Generator/" />
+                                    <Project name="Password Generator" img={password} link="https://icek567.github.io/Password-Generator/" />
                                 </div>
                                 <a class="btn btn-outline-info btn-sm" id="btn" href="https://github.com/icek567/Password-Generator" role="button">GitHub</a>
-                               <h5 id="list">Technologies used:</h5>
+                                <h5 id="list">Technologies used:</h5>
                                 <ul>
                                     <li>HTML</li>
                                     <li>Javascript</li>

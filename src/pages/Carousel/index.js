@@ -7,6 +7,9 @@ import chivas from "./chivas.JPG";
 import night from "./night.JPG";
 import woods from "./woods.jpg";
 import birdhouse from "./birdhouse.jpg";
+import sedona from "./sedona.jpeg";
+import chicago from "./chicago.jpeg";
+import starvedrock from "./starvedrock.jpeg"
 import Carousel from 'react-bootstrap/Carousel';
 
 function Carousels() {
@@ -31,7 +34,7 @@ function Carousels() {
                         height={500}
                         width={700}
                         src={chivas}
-                        alt="Third slide"
+                        alt="Second slide"
                     />
 
                     <Carousel.Caption>
@@ -57,7 +60,7 @@ function Carousels() {
                         height={500}
                         width={700}
                         src={night}
-                        alt="First slide"
+                        alt="Fourth slide"
                     />
                     <Carousel.Caption>
                         <h3>Evanston, Illinois</h3>
@@ -69,7 +72,7 @@ function Carousels() {
                         height={500}
                         width={700}
                         src={woods}
-                        alt="First slide"
+                        alt="Fifth slide"
                     />
                     <Carousel.Caption>
                         <h3>Porter, Indiana</h3>
@@ -81,12 +84,49 @@ function Carousels() {
                         height={500}
                         width={700}
                         src={birdhouse}
-                        alt="First slide"
+                        alt="Sixth slide"
                     />
                     <Carousel.Caption>
                         <h3>Evanston, Illinois</h3>
                     </Carousel.Caption>
                 </Carousel.Item>
+
+                <Carousel.Item>
+                    <img
+                        height={500}
+                        width={700}
+                        src={chicago}
+                        alt="Seventh slide"
+                    />
+                    <Carousel.Caption>
+                        <h3>Chicago, Illinois</h3>
+                    </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                    <img
+                        height={500}
+                        width={700}
+                        src={sedona}
+                        alt="Eight slide"
+                    />
+                    <Carousel.Caption>
+                        <h3>Sedona, Arizona</h3>
+                    </Carousel.Caption>
+                </Carousel.Item>
+
+                <Carousel.Item>
+                    <img
+                        height={500}
+                        width={700}
+                        src={starvedrock}
+                        alt="Ninth Slide" 
+                    />
+                    <Carousel.Caption>
+                        <h3>Oglesby, Illinois</h3>
+                    </Carousel.Caption>
+                </Carousel.Item>
+                
             </Carousel>
         </div>
     )

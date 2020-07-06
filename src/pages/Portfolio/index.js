@@ -226,6 +226,7 @@ function Portfolio() {
                                     </Accordion>
                                 </Card.Body>
                             </Card>
+
                         </div>
                     </div>
                 </div>

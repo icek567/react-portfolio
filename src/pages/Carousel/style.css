@@ -9,6 +9,8 @@
     width: 10px;
     height: 10px;
     border-radius: 100%;
+    margin: auto;
+
   }
 
 
@@ -24,3 +26,39 @@
     margin-left: 130px; /* Same as the width of the sidenav */
     /* font-size: 28px; Increased text to enable scrolling */
 }
+
+/* For devices which are smaller than 960 pixels */
+@media only screen and (max-width: 959px) {
+    .carousel{
+        width: 100%;
+    }
+
+}
+ 
+ /* For Tablets */
+ @media only screen and (min-width: 768px) and (max-width: 959px) {
+    .carousel{
+        width: 100%;
+    }
+ }
+ 
+ /* For all mobiles */
+ @media only screen and (max-width: 767px) {
+    .carousel{
+        width: 100%;
+    }
+ }
+ 
+ /* Mobile Landscape Size to Tablet Portrait  */
+ @media only screen and (min-width: 480px) and (max-width: 767px) {
+     .carousel{
+         width: 100%;
+     }
+ }
+ 
+ /* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+ @media only screen and (max-width: 479px) {
+    .carousel{
+        width: 100%;
+    }
+ }

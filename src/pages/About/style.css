@@ -60,3 +60,11 @@ body{
 
     background-image: url("spikes.png")
 }
+
+.logo2{
+    border-radius: 50px;
+}
+
+#emailIcon{
+    float: right;
+}

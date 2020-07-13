@@ -12,13 +12,25 @@ function About() {
         <div className="box2">
           <div className="row">
             <div className="col">
-              <h1 className="articletitle">About me <a id="emailIcon" href="mailto:perezsergio97.sp@gmail.com" title="Email Me" className="far fa-envelope text-white" > </a> </h1>
+              <h1 className="articletitle">Welcome To My Website <a id="emailIcon" href="mailto:perezsergio97.sp@gmail.com" title="Email Me" className="far fa-envelope text-white" > </a></h1>
             </div>
           </div>
 
           <div className="row articlecontent">
             <div className="col-md-4">
-              <img className="Sergiopic" src={me} alt="Sergio" width="200" height="300" class="img-thumbnail" />
+              <div className="Flip">
+                <div className="Front">
+                  <img className="Sergiopic" src={me} alt="Sergio" width="200" height="200" class="img-thumbnail" />
+                </div>
+                {/* <div className="Back" width="200" height="300" >
+                  <div className="details">
+                    <h2>Details go in </h2>
+                    <div className="Icons">
+                      <a href="mailto:perezsergio97.sp@gmail.com" title="Email Me" className="far fa-envelope text-white" > </a>
+                    </div>
+                  </div>
+                </div> */}
+              </div>
             </div>
 
             <div className="col-md-8">

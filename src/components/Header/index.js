@@ -18,7 +18,7 @@ function Header() {
 
           <ul className="list-unstyled components">
             <li>
-              <Link id="link"  className="nav-link" to="/"><i class="fas fa-user"></i>  About me</Link>
+              <Link id="link"  className="nav-link" to="/"><i class="fas fa-home"></i>  Home</Link>
             </li>
             <li>
               <Link id="link"  className="nav-link" to="/portfolio"><i class="fas fa-briefcase"></i>  Portfolio</Link>

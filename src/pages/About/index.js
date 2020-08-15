@@ -22,14 +22,6 @@ function About() {
                 <div className="Front">
                   <img className="Sergiopic" src={me} alt="Sergio" width="200" height="200" class="img-thumbnail" />
                 </div>
-                {/* <div className="Back" width="200" height="300" >
-                  <div className="details">
-                    <h2>Details go in </h2>
-                    <div className="Icons">
-                      <a href="mailto:perezsergio97.sp@gmail.com" title="Email Me" className="far fa-envelope text-white" > </a>
-                    </div>
-                  </div>
-                </div> */}
               </div>
             </div>
 

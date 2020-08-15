@@ -35,7 +35,8 @@
     padding-bottom: 5px;
     padding-left: 5px;
     padding-top: 5px;
-    background-color: rgb(21, 21, 68);}
+    background-color: rgb(21, 21, 68);
+}
 
 /* white line at the bottom */
 #sidebar ul.components {
@@ -71,4 +72,10 @@ ul ul a {
     font-size: 0.9em !important;
     padding-left: 30px !important;
     background: #182355;
+}
+
+/* Navbar for when the screen size is smaller */
+#smallNav{
+    background-image: url("https://r1.ilikewallpaper.net/iphone-wallpapers/download/10299/Blue-Cloud-iphone-wallpaper-ilikewallpaper_com.jpg");
+    transition: all 0.3s;
 }

@@ -6,10 +6,9 @@
     box-sizing: border-box;
     border-radius: 10px;
     display: block;
-    margin-left: 130px; /* Same as the width of the sidenav */
-    /* font-size: 28px; Increased text to enable scrolling */
-    width: auto;
+
 }
+
 
 .box2{
     background: rgba(5, 45, 126, 0.76);
@@ -18,9 +17,7 @@
     box-sizing: border-box;
     border-radius: 10px;
     display: block;
-    width: 90%;
-    margin-left: 130px; /* Same as the width of the sidenav */
-    /* font-size: 28px; Increased text to enable scrolling */
+
 }
 .articletitle {
     color: #fbffff;
@@ -63,94 +60,41 @@ body{
 
 .logo2{
     border-radius: 50px;
+
 }
 
 #emailIcon{
     float: right;
 }
 
-/* Icon spacing 
-.Icons{
-    padding: 10px 0;
-}
-
-
- /* Making the front side of picture becoming invisible 
-.Flip .Front{
-    cursor: pointer;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    backface-visibility: hidden;
-    transform: rotateX(0deg);
-    transition: 0.5s;
-}
-
-/* Making the actual picture flip 
-.Flip:hover .Front{
-    transform: rotateX(-180deg);
-}
- 
- /* Back part of the Card showing once flipped 
-.Flip:hover .Back{
-    transform: rotateX(0deg);
-}
-
- /* Making the card show once it is flipped from the front  
-.Flip .Back{
-    position: absolute;
-    top: 0%;
-    width: 75%;
-    height: 100%;
-    background-color: rgb(32, 32, 34);
-    backface-visibility: hidden;
-    transform: rotateX(180deg);
-    transition: 0.5s;
-    padding-left: 5px;
-    padding-right: 3px;
-    border-radius: 10px;
-
-}
-/* .details{
-    color: black;
-} 
-
-@media only screen and (max-width: 800px) {
-    .Back {
-        max-width: 50%;
-        height: auto;
-    }
-}
-
-/* For Tablets 
+/* For Tablets */
 @media only screen and (min-width: 768px) and (max-width: 959px) {
-    .Back {
-        max-width: 50%;
+    .Logo2 {
+        width: 100%;
         height: auto;
     }
 }
 
-/* For all mobiles 
+/* For all mobiles */
  @media only screen and (max-width: 767px) {
-    .Back {
-        max-width: 50%;
-        height: auto;
+    .Logo2 {
+        width: 100%;
+        height: auto;;
     }
 }
 
-/* Mobile Landscape Size to Tablet Portrait  
+/* Mobile Landscape Size to Tablet Portrait  */
  @media only screen and (min-width: 480px) and (max-width: 767px) {
-    .Back {
-        max-width: 50%;
+    .Logo2 {
+        width: 100%;
         height: auto;
     }
 }
 
-/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) 
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
  @media only screen and (max-width: 479px) {
-    .Back {
-        max-width: 50%;
+    .Logo2 {
+        width: 100%;
         height: auto;
     }
 }
- */

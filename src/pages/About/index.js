@@ -46,7 +46,7 @@ function About() {
                 </p>
             </div>
             <div className="col-md-3">
-              <img className="logo2" src={Darklogo} alt="Logo" width="300" height="300" />
+              <img className="Logo2" src={Darklogo} alt="Logo" width="300" height="300" />
               <figcaption className="text-center text-whit">Logo I made for myself.</figcaption>
             </div>
           </div>

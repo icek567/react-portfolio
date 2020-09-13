@@ -2,7 +2,7 @@ import React from "react";
 import Project from "../../components/Project"
 import media from "./media.jpg"
 import Schedule from "./schedule.jpg"
-import quiz from "./quiz.jpg"
+import weather from "./weather.jpg"
 import burger from "./burger.jpg"
 import password from "./password.jpg"
 import team from "./team.jpg"
@@ -45,7 +45,9 @@ function Portfolio() {
                                                     <Card.Text> <ul>
                                                         <li>HTML5</li>
                                                         <li>jquery</li>
-                                                        <li>Javascript</li>
+                                                        <li>OMDB API</li>
+                                                        <li>Google Books API</li>
+                                                        <li>rawg.io API</li>
                                                         <li>Materialze</li>
                                                     </ul>
                                                         <Button variant="btn btn-outline-info btn-sm" href="https://github.com/icek567/Multi-Media-Search-App ">GitHub</Button>
@@ -94,12 +96,12 @@ function Portfolio() {
                         <div className="col-sm-6">
                             <Card id="CardColor">
                                 <Card.Body>
-                                    <Card.Title><h5>SuperHero Quiz</h5></Card.Title>
+                                    <Card.Title><h5>Weather Dashboard</h5></Card.Title>
                                     <Card.Text>
-                                        <p className="card-text">How good do you know superhero lore? Take this quiz and find out if you know enough to pass.
-                                         See your high school but if you get too many wrong answers it will end the quiz early.</p>
+                                        <p className="card-text">Need to get the temperature for the day? Need to know if it is going to rain or be sunny? Need a forecast for the next few days? 
+                                        Here is the website for you. Using OpenWeather API you are able to get all of that information with just typing the city name.</p>
                                     </Card.Text>
-                                    <Project name="SuperHero Quiz" img={quiz} link="https://icek567.github.io/Superhero-Quiz/" />
+                                    <Project name="Weather Dashboard" img={weather} link="https://icek567.github.io/Weather/" />
                                     <Accordion>
                                         <Card classname="accordion" border="info" id="CardColor">
                                             <Card.Header id="point">
@@ -112,10 +114,11 @@ function Portfolio() {
                                                     <Card.Text>
                                                         <ul>
                                                             <li>jquery</li>
-                                                            <li>Javascript</li>
+                                                            <li>Ajax</li>
+                                                            <li>OpenWeather API</li>
                                                             <li>Bootstrap</li>
                                                         </ul>
-                                                        <Button variant="btn btn-outline-info btn-sm" href="https://github.com/icek567/Superhero-Quiz">GitHub</Button>
+                                                        <Button variant="btn btn-outline-info btn-sm" href="https://github.com/icek567/Weather">GitHub</Button>
                                                     </Card.Text>
                                                 </Card.Body>
                                             </Accordion.Collapse>
